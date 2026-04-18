@@ -1,0 +1,18 @@
+- Days bygone is a game for phones
+- So, this is gameplay
+	- You play as a black guy
+	- Shoot dinosours with weapons
+	- Make money from this
+	- Upgrade yourself in menu after buttle
+	- Then, after some progress you can open weapons crates, that you will get from bosses every 5 days (levels)
+	- Also you can unlock spells
+	- Then you got to the rewinds
+		- Rewinds will reset your progress
+		- But get you elexir
+			- You can upgrade yourself even more with it
+		- Then it has a chance, that you get ticket, while in resset
+			- With tickets you can unlock heroes
+			- Heroes is friends
+			- They cool
+- And more...
+[[What i want to do]]

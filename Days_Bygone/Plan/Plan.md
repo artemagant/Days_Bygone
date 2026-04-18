@@ -1,0 +1,3 @@
+- It will has few steps
+	- [ ] [[Start]]
+	- [ ] [[Weapons And Bosses|Make weapons and bosses]]

@@ -1,0 +1,6 @@
+- So, i want to recreate this game
+- back then, i was addicted to this game
+- So much content and it pretty much afk
+- I really need to make only start, and thats it
+- [[Main Idea|Player, enemys, heroes...]]
+- So, Lets just follow the [[Plan/Plan|plan]]

@@ -1,0 +1,30 @@
+[gd_scene format=3 uid="uid://do0d5v2ds5k6s"]
+
+[ext_resource type="Script" uid="uid://defao6iyoj1n1" path="res://Scenes/Weapons/Weapon_Class/weapon_class.gd" id="1_habt8"]
+[ext_resource type="Texture2D" uid="uid://4q335xxs2p" path="res://icon.svg" id="1_r8loe"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_habt8"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_r8loe")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_r8loe"]
+size = Vector2(69, 89)
+
+[node name="Weapon_Class" type="Area2D" unique_id=1205108883]
+script = ExtResource("1_habt8")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1600398566]
+position = Vector2(2.499999, 3.999998)
+scale = Vector2(0.5546875, 0.73437494)
+sprite_frames = SubResource("SpriteFrames_habt8")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1782027495]
+position = Vector2(2.5, 4.5)
+shape = SubResource("RectangleShape2D_r8loe")

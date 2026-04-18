@@ -1,0 +1,30 @@
+[gd_scene format=3 uid="uid://d1w5ccem33kle"]
+
+[ext_resource type="Script" uid="uid://bvwkcwg66tvv1" path="res://Scenes/Player/player.gd" id="1_uvnfx"]
+[ext_resource type="Texture2D" uid="uid://4q335xxs2p" path="res://icon.svg" id="2_a3d8c"]
+[ext_resource type="PackedScene" uid="uid://do0d5v2ds5k6s" path="res://Scenes/Weapons/Weapon_Class/weapon_class.tscn" id="2_xpcdj"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_xpcdj"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_a3d8c")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="Player" type="CharacterBody2D" unique_id=668674211]
+script = ExtResource("1_uvnfx")
+weapon = ExtResource("2_xpcdj")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1461588508]
+position = Vector2(1, -3)
+scale = Vector2(0.547, 0.781)
+sprite_frames = SubResource("SpriteFrames_xpcdj")
+
+[node name="Timer" type="Timer" parent="." unique_id=780821612]
+one_shot = true
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
